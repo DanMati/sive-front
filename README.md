@@ -1,8 +1,7 @@
-# sive-front
-Sistema de Informações de Vagas de Estacionamento
+# Sistema de Informações de Vagas de Estacionamento
+### Alunos: Danyel Matias do Nascimento e José Aldrahn dos Anjos Santiago Gomes
 
-Minimundo - Sistema de Informações de Vagas de Estacionamento
-
+#### Minimundo 
 
 Mesmo sendo um produto de alto custo, o número de carros em média no país é de um
 para cada 4 brasileiros. Pensando em larga escala é evidente que alguns problemas
