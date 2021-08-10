@@ -73,6 +73,9 @@
             "production": {
               "browserTarget": "sive-front:build:production"
             },
+            "options":{
+              "proxyConfig": "src/proxy.conf.json"
+            },
             "development": {
               "browserTarget": "sive-front:build:development"
             }

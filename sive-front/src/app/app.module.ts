@@ -12,7 +12,9 @@ import { CadastroComponent } from './cadastro/cadastro.component';
 import { EsqueciMinhaSenhaComponent } from './esqueci-minha-senha/esqueci-minha-senha.component';
 import { BarraSuperiorComponent } from './area-logada/shared/barra-superior/barra-superior.component';
 import { PerfilComponent } from './area-logada/shared/perfil/perfil.component';
-import { ReactiveFormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { ReservaService } from './services/reserva.service';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -30,9 +32,12 @@ import { ReactiveFormsModule } from '@angular/forms';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HttpClientModule,
+    FormsModule
   ],
-  providers: [],
+  providers: [ReservaService,
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
